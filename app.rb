@@ -5,5 +5,17 @@ get '/' do
 end
 
 get '/secret' do
-  "Here we have a secret message..."
+  "🤫"
+end
+
+get '/dog' do
+  "🐕"
+end
+
+get '/cat' do
+  "🐈"
+end
+
+get '/hedgehog' do
+  "🦔"
 end
