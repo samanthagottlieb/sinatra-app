@@ -13,6 +13,7 @@ get '/dog' do
 end
 
 get '/cat' do
+  @cat_name = %w(Amigo Oscar Ahsoka).sample
   erb(:index)
 end
 
