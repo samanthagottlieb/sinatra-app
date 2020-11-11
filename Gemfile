@@ -6,5 +6,9 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem "sinatra"
 gem "shotgun"
+gem "capybara"
+gem "selenium-webdriver"
 
-set :session_secret, 'super secret'
+group :development, :test do
+  gem 'rspec'
+end
